@@ -1,0 +1,50 @@
+
+
+.catsPage {
+    margin: 0 auto;
+    padding-top: 64px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.catsImg {
+    position: relative;
+}
+
+.catsImg img {
+    margin: 23px;
+    object-fit: cover;
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.catsImg:hover img {
+    -webkit-transform: scale(1.15); /* Safari and Chrome */
+    -moz-transform: scale(1.15); /* Firefox */
+    -ms-transform: scale(1.15); /* IE 9 */
+    -o-transform: scale(1.15); /* Opera */
+    transform: scale(1.15);
+}
+
+.catsImg:hover .favorites {
+    opacity: 1;
+
+}
+
+.favorites {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.loading {
+    text-align: center;
+    margin-bottom: 31px;
+}
+
