@@ -9,7 +9,7 @@ export const instance = axios.create({
 
 export const catsAPI = {
     getCats(currentPage: number) {
-        return instance.get(`images/search?limit=15&page=${currentPage}`)
+        return instance.get(`images/search?limit=20&page=${currentPage}`)
     }
 }
 

@@ -8,7 +8,7 @@ export const Header = () => {
         <div className={style.header}>
             <div className={s.container}>
                 <nav className={style.nav}>
-                    <NavLink className={navData => navData.isActive ? style.active : style.item} to='/'>
+                    <NavLink className={navData => navData.isActive ? style.active : style.item} to='/Cats'>
                         Все котики
                     </NavLink>
                     <NavLink className={navData => navData.isActive ? style.active : style.item} to='/liked-cats'>
